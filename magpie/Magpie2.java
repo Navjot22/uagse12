@@ -35,15 +35,15 @@ public class Magpie2
         {
             response = "Why so negative?";
         }
-          if (statement.indexOf("Navjot") >= 0)
+          else if (statement.indexOf("Navjot") >= 0)
         {
             response = "Yeah, Navjot's pretty cool.";
         }
-          if (statement.indexOf("boi") >= 0)
+          else if (statement.indexOf("boi") >= 0)
         {
             response = "you spelled boy wrong";
         }
-          if (statement.indexOf("anwar") >= 0)
+          else if (statement.indexOf("anwar") >= 0)
         {
             response = "names should be capital";
         }
